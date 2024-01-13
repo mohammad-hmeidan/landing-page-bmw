@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <title>BMW i4 M50</title>
+  </head>
+  <body>
+    <div class="overlay">
+      <img src="./image/bmw-i4-m50-desktop.jpg" alt="" />
+      <img src="./image/bmw-i4-m50-mobile.avif" alt=".." />
+    </div>
+    <header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img src="./image/Logo-bmw.png" alt="logo" />
+        </a>
+        <nav>
+          <i class="fas fa-bars toggle-menu"></i>
+          <ul>
+            <li><a href="#">Find your BMW</a></li>
+            <li><a href="#">purchase & lease</a></li>
+            <li><a href="#">Electric driving</a></li>
+            <li><a href="#">Service & accessoires</a></li>
+            <li><a href="#">More BMW</a></li>
+          </ul>
+          <div class="form">
+            <i class="fas fa-search"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="landing">
+      <div class="container">
+        <p style="direction: rtl">Sheer Driving<span> Pleasure</span></p>
+        <div>
+          <img src="./image/logo-car-bmw-m.png" alt="m logo" />
+          <p>THE FIRST 100% ELECTRIC M-MODEL</p>
+        </div>
+        <h1>THE I4 M50</h1>
+        <div class="button">configurator and pricing</div>
+        <p>+ stay informed</p>
+        <div class="details">
+          <div>
+            <h3>$73.429,00</h3>
+            <p>Available from</p>
+          </div>
+          <div>
+            <h3>Electric</h3>
+            <p>Drive</p>
+          </div>
+        </div>
+        <div class="foot">
+          <p>Highlights</p>
+          <p>Load</p>
+          <p>Technical data</p>
+          <p>Purchase and Lease</p>
+          <p>Support and Services</p>
+        </div>
+      </div>
+    </div>
+    <script>
+      let toggle = document.querySelector("header .container nav > i");
+      let ul = document.querySelector("header .container nav ul");
+      toggle.onclick = () => {
+        ul.classList.toggle("active");
+      };
+    </script>
+  </body>
+</html>
